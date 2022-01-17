@@ -11,4 +11,8 @@ class SampleUseCase @Inject constructor(
         //here you can add some domain logic or call another UseCase
         return apIs.sampleGet()
     }
+
+    fun cancel() {
+        //do some thing
+    }
 }
